@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: Arial, sans-serif; color:#222; line-height:1.5; padding:20px;">
+
+<p style="margin-bottom:16px;">Hi <?= recipientName ?>,</p>
+
+<p style="margin-bottom:16px;">
+Thank you for saying yes to slowing down and making space for a real conversation. Your TimeToTalk match is ready — and soon, the two of you will sit across a digital table and explore ideas that matter.
+</p>
+
+<h3 style="margin:20px 0 6px;">👤 Your Match</h3>
+<p style="margin:0;">
+<strong>Name:</strong> <?= partnerName ?><br>
+<strong>What they're curious about:</strong> <?= partnerInterest ?><br>
+<strong>Email (optional contact):</strong> <a href="mailto:<?= partnerEmail ?>"><?= partnerEmail ?></a>
+</p>
+
+<hr style="margin:24px 0; border:none; border-top:1px solid #eee;" />
+
+<h3 style="margin:0 0 6px;">🗓 Your Session</h3>
+<p style="margin-top:0;">
+Friday — 20:00 WIB
+</p>
+
+<a href="<?= meetLink ?>" 
+   style="display:inline-block; margin:10px 0; padding:12px 20px; background:#000; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold;">
+Join Google Meet
+</a>
+
+<hr style="margin:24px 0; border:none; border-top:1px solid #eee;" />
+
+<h3 style="margin:0 0 6px;">🎴 Conversation Cards</h3>
+<p style="margin:0 0 16px;">
+These cards will gently guide your conversation — one prompt at a time.
+</p>
+
+<a href="https://s.id/TimeToTalkCards"
+   style="display:inline-block; padding:10px 18px; background:#f2f2f2; text-decoration:none; color:#222; border-radius:6px;">
+Access Cards →
+</a>
+
+<hr style="margin:24px 0; border:none; border-top:1px solid #eee;" />
+
+<p style="margin-bottom:16px;">
+Before you start, a few gentle invitations:
+</p>
+
+<ul style="margin:0 0 20px;">
+  <li>Let silence breathe — sometimes the pause holds meaning.</li>
+  <li>Listen to understand, not to respond.</li>
+  <li>Stay curious — especially when perspectives differ.</li>
+  <li>Let the pace be human, not hurried.</li>
+</ul>
+
+<p style="margin-bottom:24px;">
+We built TimeToTalk because meaningful conversations are rare — but powerful. When two people meet with curiosity and presence, something shifts. Sometimes quietly. Sometimes profoundly.
+</p>
+
+<p style="margin-bottom:8px;">Warm regards,</p>
+<p style="font-weight:bold; margin:0;">Ministry of The Future 💛</p>
+
+</body>
+</html>
